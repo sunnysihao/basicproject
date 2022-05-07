@@ -7,7 +7,7 @@ class Point(object):
         self.y = y
         self.z = z
 points = []
-filename = '/home/gcc/***'
+filename = 'C:/Users/EDY/Desktop/3548_2048/3548_2048/3d_url/ladybug_000009'
 #读取pcd文件,从pcd的第12行开始是三维点
 with open(filename+'.pcd') as f:
     for line in f.readlines()[11:len(f.readlines())-1]:
